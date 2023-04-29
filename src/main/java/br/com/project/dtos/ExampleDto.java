@@ -6,7 +6,7 @@ import org.springframework.hateoas.RepresentationModel;
 
 @Data
 @EqualsAndHashCode(callSuper = false)
-public class TestDto extends RepresentationModel<TestDto> {
+public class ExampleDto extends RepresentationModel<ExampleDto> {
 
     private String registrationKey;
     private String creationDate;

@@ -6,8 +6,8 @@ import lombok.Data;
 
 @Data
 @Entity
-@Table(name = "test")
-public class TestEntity extends DefaultEntityImpl {
+@Table(name = "example")
+public class ExampleEntity extends DefaultEntityImpl {
 
     private String test;
 
