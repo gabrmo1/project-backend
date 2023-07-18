@@ -13,7 +13,7 @@ import java.text.ParseException;
 import java.util.List;
 
 @RestController
-@RequestMapping("/test")
+@RequestMapping("/example")
 @RequiredArgsConstructor
 public class ExampleController {
 
